@@ -34,10 +34,10 @@ Set ChangePasswordAtLogon flag to $true
 ## EXAMPLES
 ### EXAMPLE 1
 ```powershell
-PS C:\>& .\Reset-ADAccountPassword.ps1 -Identity johndoe -NewPassword (Read-Host -Prompt "NewPassword" -AsSecureString) -Unlock -MustChangePasswordAtLogon
+PS C:\>& .\Reset-ADAccountPassword.ps1 -Identity johndoe -NewPassword (Read-Host -Prompt 'NewPassword' -AsSecureString) -Unlock -MustChangePasswordAtLogon
 ```
 
 ### EXAMPLE 2
 ```powershell
-PS C:\>& .\Reset-ADAccountPassword.ps1 -Identity johndoe -NewPassword "P@$$w0rd" -AsPlainText -Force -MustChangePasswordAtLogon
+PS C:\>& .\Reset-ADAccountPassword.ps1 -Identity johndoe -NewPassword 'P@$$w0rd' -AsPlainText -Force -MustChangePasswordAtLogon
 ```
