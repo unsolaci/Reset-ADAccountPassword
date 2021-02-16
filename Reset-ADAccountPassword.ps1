@@ -1,5 +1,5 @@
 <#PSScriptInfo
-.VERSION     1.0.0
+.VERSION     1.1.0
 .DESCRIPTION Reset AD account password and set AD user parameters.
 .AUTHOR      Wojciech Ros (code@unsola.ci)
 .COPYRIGHT   Copyright (C) 2020-2021 Wojciech Ros (code@unsola.ci)
