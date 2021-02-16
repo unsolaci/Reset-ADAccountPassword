@@ -3,6 +3,7 @@
 .DESCRIPTION Reset AD account password and set AD user parameters.
 .AUTHOR      Wojciech Ros (code@unsola.ci)
 .COPYRIGHT   Copyright (C) 2020-2021 Wojciech Ros (code@unsola.ci)
+.PROJECTURI  https://github.com/unsolaci/Reset-ADAccountPassword
 .LICENSEURI  http://www.apache.org/licenses/LICENSE-2.0
 .GUID        074fbf1f-95a3-4cb2-a8f8-9993ca60a2a8
 #>
